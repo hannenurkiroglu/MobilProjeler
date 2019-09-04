@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.saruhan.not.LessonsActivity">
+
+    <ListView
+        android:id="@+id/lessonsList"
+        android:layout_width="wrap_content"
+        android:background="@color/colorGri"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textViewLessons"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        tools:ignore="ObsoleteLayoutParam" />
+
+
+</LinearLayout>
